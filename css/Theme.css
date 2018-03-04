@@ -95,15 +95,14 @@ h2{
 
 
 #Nosotros:hover .ulNosotros li{
-    display:inline-block;
-    margin-top:2em;
-
+    display:block;
+    
     font-size: 1em;
     text-decoration: none;
     background-color:rgb(255, 255, 255);
     color:rgb(90, 129, 173);
     align-self: center;
-    width: 15em;
+    width: auto;
     height: auto;
     }
 
@@ -128,8 +127,9 @@ h2{
     
 .ulNosotros li{
             display:none;
-           
-            width: 10em;
+            position:absolute;
+            padding:1em;
+            width: auto;
         }
 
 #Informatica{
@@ -226,6 +226,8 @@ color:rgb(90, 129, 173);
 
     font-weight:bold;
 }
+
+
 
 #fooContenedor{
     margin-top:2em;
